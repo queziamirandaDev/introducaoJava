@@ -1,6 +1,6 @@
 1° Fazer a interface
 
-
+java
 package ExemploProfessor;
 
 public interface Cardapio {
@@ -11,7 +11,7 @@ public interface Cardapio {
 
 2° Criar a classe Pai
 
-
+java
 package ExemploProfessor;
 
 import java.util.Scanner;
@@ -23,12 +23,13 @@ abstract class Hamburgueria implements Cardapio {
     Scanner scanner = new Scanner(System.in);
     String pedido = scanner.nextLine();
 
-
-
 }
+
+
 
 3° Criar classe filho
 
+java
 package ExemploProfessor;
 
 class Pedido extends Hamburgueria {
@@ -41,6 +42,7 @@ class Pedido extends Hamburgueria {
 
 4° Criar o Main e dar run no arquivo
 
+java
 package ExemploProfessor;
 
 public class Main {
