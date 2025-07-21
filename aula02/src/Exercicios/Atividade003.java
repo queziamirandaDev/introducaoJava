@@ -10,6 +10,7 @@ public class Atividade003 {
         System.out.println("Média dos Semestres da aluna  " + nome);
 
         //  Média Semestres
+        // Somei tudo e dividi pela quantidade de semestres
 
         int nota1 = 7;
         int nota2 = 10;
@@ -28,18 +29,6 @@ public class Atividade003 {
         System.out.println(" A Média da aluna " + nome + " foi: " + media );
 
 
-
-        // Opção com repeticão for
-
-        double media5 = 0.0;
-
-        int totalSemestre = 10;
-
-
-
-
-
-        for (int i = 1 )
 
 
         if (media > 6) {
